@@ -16,3 +16,12 @@ try:
         print("Ошибка! Попробуй еще раз")
 except:
     print("Ещёоооооо")
+
+# 2й вариант
+Password = "234"
+print("Введи сука пароль!")
+Digit = input()
+if Digit == Password:
+    print("Красава! Доступ открыт")
+else:
+    print("В доступе отказано")
